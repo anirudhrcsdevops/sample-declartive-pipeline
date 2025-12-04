@@ -35,7 +35,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Fetching source code..."
-                git 'https://github.com/your-username/jenkins-poc.git'
+                git 'https://github.com/anirudhrcsdevops/sample-declartive-pipeline.git'x`
             }
         }
 
