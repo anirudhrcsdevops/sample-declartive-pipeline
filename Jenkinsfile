@@ -35,7 +35,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Fetching source code..."
-                git 'https://github.com/anirudhrcsdevops/sample-declartive-pipeline.git'
+                git branch: 'main', url: 'https://github.com/anirudhrcsdevops/sample-declartive-pipeline.git'
             }
         }
 
